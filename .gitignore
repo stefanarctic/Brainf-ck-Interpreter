@@ -1,3 +1,2 @@
 *.exe
 src/filetest.cpp
-src/bin/*
