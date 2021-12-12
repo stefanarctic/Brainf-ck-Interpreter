@@ -1,3 +1,4 @@
 @echo off
-if exist bfprogram.exe del bfprogram.exe
-if exist program.exe del program.exe
+if exist bin\bfprogram.exe del bin\bfprogram.exe
+if exist bin\program.exe del bin\program.exe
+if exist bin\output.cpp del bin\output.cpp

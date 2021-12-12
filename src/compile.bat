@@ -1,5 +1,5 @@
 @echo off
-g++ -o program.exe main.cpp
-program.exe
-g++ -o bfprogram.exe output.cpp
-bfprogram.exe
+g++ -o bin\program.exe main.cpp
+bin\program.exe
+g++ -o bin\bfprogram.exe bin\output.cpp
+bin\bfprogram.exe

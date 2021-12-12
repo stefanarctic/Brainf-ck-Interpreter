@@ -8,7 +8,7 @@ typedef std::ifstream readstream;
 typedef std::ofstream writestream;
 
 int main() {
-    std::string outputPath = "output.cpp";
+    std::string outputPath = "bin/output.cpp";
     std::string inputPath = "input.bf";
     char escape = '\n';
     
