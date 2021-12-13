@@ -12,10 +12,6 @@ int main() {
     std::string inputPath = "input.bf";
     char escape = '\n';
     
-    
-    
-    // std::cout << program[0] << std::endl;
-
     // Read input content
     readstream rstream(inputPath.c_str());
     std::string line;
@@ -42,9 +38,7 @@ int main() {
     wstream << "{" << escape;
     wstream << "std::vector<int> program;" << escape;
     wstream << "program.reserve(100);" << escape;
-    // wstream << "program.fill(0);" << escape;
     wstream << "int program_pointer = 0;" << escape;
-    // wstream << "for(int i = 0; i < program.size(); i++) program[i] = 0;" << escape;
 
     const char* c_content = content.c_str();
     std::vector<char> content_arr(c_content, c_content + sizeof c_content / sizeof c_content[0]);
