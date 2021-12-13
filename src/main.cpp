@@ -75,6 +75,14 @@ int main() {
                 wstream << "std::cin >> program[program_pointer];" << escape;
                 break;
             }
+            case '[': {
+                wstream << "while(current_pointer != 0) {" << escape;
+                break;
+            }
+            case ']': {
+                wstream << "}" << escape;
+                break;
+            }
         }
     }
 
